@@ -315,24 +315,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script>
-    jQuery(document).ready(function ($) {
-        $('#mycarousel').carousel({
-            interval: 2000
-        });
-        $('#carousel-button').click(function(){
-            if($('#carousel-button').children('span').hasClass('fa-pause')) {
-                $('#mycarousel').carousel('pause');
-                $('#carousel-button').children('span').removeClass('fa-pause');
-                $('#carousel-button').children('span').addClass('fa-play');
-            } else {
-                $('#mycarousel').carousel('cycle');
-                $('#carousel-button').children('span').removeClass('fa-play');
-                $('#carousel-button').children('span').addClass('fa-pause');
-            }
-        });
-    })
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
