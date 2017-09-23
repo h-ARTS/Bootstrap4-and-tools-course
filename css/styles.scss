@@ -9,6 +9,7 @@ $carousel-item-height: 300px;
 @mixin zero-margin ($pad-up-down: 0px, $pad-left-right: 0px) {
     margin: 0 auto;
     padding: $pad-up-down $pad-left-right;
+    
 }
 
 .row-header{
